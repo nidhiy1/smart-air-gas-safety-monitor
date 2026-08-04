@@ -52,5 +52,5 @@ Each LED: long leg (anode) → resistor → Arduino pin; short leg (cathode) →
 
 ## Notes
 
-- MQ135 and MQ3 need a warm-up period after power-up before readings stabilize — avoid trusting values in the first few minutes.
-- The DHT11 requires `DHTTYPE` to be set to `DHT11` (not `DHT22`) in code — this was a real bug encountered during development (see commit history / calibration notes).
+- MQ135 and MQ3 need a warm-up period after power-up before readings stabilize — avoid taking readings in the first few minutes.
+- The DHT11 requires `DHTTYPE` to be set to `DHT11` (not `DHT22`) in code.
