@@ -1,6 +1,5 @@
 /*
   SMART AIR QUALITY & GAS SAFETY MONITOR
-  PES University Electronic Starter Kit Combo-5
 
   STATUS: Work in progress — sensors and display individually tested.
   Threshold values below are placeholders pending calibration
