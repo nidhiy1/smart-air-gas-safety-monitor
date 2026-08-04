@@ -2,8 +2,6 @@
 
 An Arduino-based embedded system that monitors ambient air quality, gas concentration, temperature, and humidity in real time — and provides tiered visual alerts (safe / caution / danger) via LED indicators and an LCD display.
 
-Built using the PES University Electronic Starter Kit Combo-5.
-
 ## What It Does
 
 - Reads temperature and humidity via a DHT11 sensor
