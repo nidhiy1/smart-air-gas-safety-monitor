@@ -7,25 +7,21 @@ An Arduino-based embedded system that monitors ambient air quality, gas concentr
 - Reads temperature and humidity via a DHT11 sensor
 - Reads air quality (CO2, smoke, ammonia, etc.) via an MQ135 sensor
 - Reads gas/alcohol concentration via an MQ3 sensor
-- Displays live readings on a 16x2 I2C LCD, cycling through each metric
+- Displays live readings on a 16x2 I2C LCD
 - Indicates system status using three LEDs:
-  - 🟢 Green — Safe
-  - 🔵 Blue — Caution
-  - 🔴 Red — Danger
-- Threshold logic is calibrated against real sensor baselines (see `docs/calibration.md`)
+  Green — Safe
+  Blue — Caution
+  Red — Danger
 
 ## Hardware Used
-
-| Component | Qty | Notes |
-|---|---|---|
-| Arduino UNO SMD | 1 | |
-| DHT11 Temperature & Humidity Sensor | 1 | Module version (3-pin) |
-| MQ135 Air Quality Sensor | 1 | Analog output only |
-| MQ3 Gas/Alcohol Sensor | 1 | Analog output only |
-| 16x2 LCD (I2C, AIP31068 controller) | 1 | I2C address 0x3E |
-| LEDs (Green, Blue, Red) | 3 | With current-limiting resistors |
-| Resistors (1K, 2.2K) | Several | LED current limiting |
-| Breadboard + jumper wires | — | |
+Arduino UNO SMD
+DHT11 Temperature & Humidity Sensor
+MQ135 Air Quality Sensor
+MQ3 Gas/Alcohol Sensor
+16x2 LCD (I2C, AIP31068 controller)
+Three LEDs (Green, Blue, Red)
+Resistors (1K, 2.2K)
+Breadboard and jumper wires
 
 ## Wiring
 
