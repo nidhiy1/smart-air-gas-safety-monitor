@@ -14,13 +14,14 @@ An Arduino-based embedded system that monitors ambient air quality, gas concentr
   Red — Danger
 
 ## Hardware Used
-Arduino UNO SMD
-DHT11 Temperature & Humidity Sensor
-MQ135 Air Quality Sensor
-MQ3 Gas/Alcohol Sensor
-16x2 LCD (I2C, AIP31068 controller)
-Three LEDs (Green, Blue, Red)
-Resistors (1K, 2.2K)
+
+Arduino UNO SMD,
+DHT11 Temperature & Humidity Sensor,
+MQ135 Air Quality Sensor,
+MQ3 Gas/Alcohol Sensor,
+16x2 LCD (I2C, AIP31068 controller),
+Three LEDs (Green, Blue, Red),
+Resistors (1K, 2.2K),
 Breadboard and jumper wires
 
 ## Wiring
